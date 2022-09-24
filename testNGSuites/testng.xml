@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+<listeners>
+  <listener class-name="TestUtils.Listeners"></listener>
+</listeners>
+
+  <test thread-count="5" name="End to End Framework Test">
+    <classes>
+      <class name="com.RanjanPracticeTest.GeneralStoreTestTwo"/>
+      
+    </classes>
+  </test> <!-- Test -->
+  
+  <test thread-count="5" name="Error validation Test">
+    <classes>
+      <class name="com.RanjanPracticeTest.GeneralStoreTestOne"/>
+      
+    </classes>
+  </test> <!-- Test -->
+  
+</suite> <!-- Suite -->

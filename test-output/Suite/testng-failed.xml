@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="TestUtils.Listeners"/>
+  </listeners>
+  <test thread-count="5" name="End to End Framework Test(failed)">
+    <classes>
+      <class name="com.RanjanPracticeTest.GeneralStoreTestTwo">
+        <methods>
+          <include name="configureAppium"/>
+          <include name="preSetUp"/>
+          <include name="tearDown"/>
+          <include name="validateToastMessage"/>
+        </methods>
+      </class> <!-- com.RanjanPracticeTest.GeneralStoreTestTwo -->
+    </classes>
+  </test> <!-- End to End Framework Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
